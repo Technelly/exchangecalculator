@@ -1,0 +1,206 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: white;
+	background: linear-gradient(#50E3C2, #1F2667) no-repeat;
+}
+
+.container {
+	position: relative;
+	min-height: 100vh;
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.header,
+div.exchangeFunction {
+	padding: 10px;
+	margin: 20px 0;
+}
+
+div.menuBar {
+	float: left;
+	padding: 10px;
+}
+
+div#button {
+	margin-top: 4px;
+	float: right;
+}
+
+div#button button {
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid white;
+	outline: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS";
+	height: 10%;
+	cursor: pointer;
+	color: white;
+}
+
+div#button button:hover {
+	background-color: rgb(255, 255, 255);
+	color: #37ad94;
+}
+
+div.menu,
+div.menuShorter {
+	width: 30px;
+	height: 4px;
+	background-color: white;
+	margin: 4px 0;
+	border-radius: 3px;
+}
+
+div.menuShorter {
+	width: 20px;
+}
+#date {
+	/* text-align:  right; */
+	margin-left: 500px;
+}
+
+.top {
+	display: flex;
+	padding-left: 70px;
+}
+
+div.title {
+	height: 20%;
+}
+
+div.title h1 {
+	text-align: center;
+	color: midnightblue;
+}
+
+div.exchangeFunction {
+	background-color: rgb(10, 10, 10, 0.7);
+	background-image: url(xch.jpg);
+	box-shadow: 2px 2px 5px black;
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	height: 80%;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 30px 0 50px 30px;
+}
+
+div.title {
+	height: 20%;
+}
+
+div.converter {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#fromCurrImage,
+div#toCurrImage {
+	padding: 20px;
+	width: 100%;
+}
+
+div#fromCurrImage img,
+div#toCurrImage img {
+	border: 1px solid white;
+	padding: 7.5px 15px;
+	float: left;
+}
+
+div#fromCurrImage select,
+div#toCurrImage select {
+	padding: 15px;
+	background-color: transparent;
+	outline: none;
+	border: 2px solid black;
+	cursor: pointer;
+	float: left;
+	color: black;
+	width: 70%;
+	align-self: center;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+div#fromCurrImage select option,
+div#toCurrImage select option {
+	background-color: rgb(10, 10, 10, 0.8);
+}
+
+div.arrows {
+	padding: 15px;
+	height: 40%;
+	margin-right: 3%;
+}
+
+
+div.inputs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div.inputs div {
+	margin: 20px;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+
+div.inputs input,
+div.inputs button {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+
+div.inputs input {
+	background-color: transparent;
+	border: 1px solid rgb(255, 255, 255, 0.4);
+	color: black;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+div.inputs img {
+	min-height: 25px;
+	width: 20px
+}
+
+div.inputs button {
+	padding: 15px;
+	background-color: transparent;
+	border: 1px solid #50E3C2;
+	outline: none;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS";
+	cursor: pointer;
+	color: #50E3C2;
+	max-width: 40%;
+	border-radius: 5px;
+}
+
+div.inputs button:hover {
+	background-color: #50E3C2;
+	color: black;
+}
+
+div.inputs p {
+	font-size: 20px;
+	margin: 5px;
+	color: #50E3C2;
+}
